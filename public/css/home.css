@@ -1,0 +1,242 @@
+.navbar {
+    background-color: #fff;
+    height: 80px;
+    margin: 20px;
+    border-radius: 16px;
+    padding: 0.5rem;
+}
+
+.navbar-brand.me-auto {
+    font-weight: 500;
+    color: #009970;
+    font-size: 24px;
+    transition: 0.3s color;
+}
+
+.login-button {
+    background-color: #009970;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+}
+
+.login-button:hover {
+    background-color: #00b383;
+}
+
+.navbar-toggler {
+    font-size: 1.25rem;
+}
+
+.navbar-toggler:focus, .btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    color: #666777;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-link:hover, .nav-link:active {
+    color: #000;
+}
+
+@media (min-width: 991px) {
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: #009970;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-link:hover::before, .nav-link.active::before{
+        width: 100%;
+        visibility: visible;
+    }
+}
+
+/* Hero Section Styling */
+.hero {
+    position: relative;
+    width: 100%;
+    min-height: 100vh; /* Full height */
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5; /* Light background for contrast */
+    overflow: hidden;
+}
+
+.hero .container {
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 125px;
+    padding-bottom: 10px;
+}
+
+.hero .copy {
+    color: #333;
+}
+
+.text-label {
+    font-size: 1em;
+    color: #009970;
+    margin-bottom: 10px;
+}
+
+.text-hero-bold {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #001d16;
+    line-height: 74px;
+}
+
+.text-hero-regular {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    color: #798092;
+}
+
+.cta a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 15px 25px;
+    font-size: 1em;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-prim {
+    text-decoration: none;
+    border: 2px solid #009970;
+    background-color: #009970;
+    color: #fff;
+}
+
+.btn-prim:hover {
+    border: 2px solid #007455;
+    background-color: #007455;
+}
+
+.btn-sec {
+    text-decoration: none;
+    background-color: #666777;
+    color: white;
+    border: 2px solid #666777;
+}
+
+.btn-sec:hover {
+    color: #666777;
+    background-color: #f5f5f5;
+    border: 2px solid #666777;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero .col-md-6 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .cta a {
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .text-hero-bold {
+        font-size: 2em; /* Adjust font size for smaller screens */
+    }
+
+    .text-hero-regular {
+        font-size: 1em; /* Adjust font size for smaller screens */
+    }
+}
+
+/* General styles for the testimonial brand section */
+.testimoni-brand {
+    background-color: #ffffff;
+    padding: 60px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Styles for the title section */
+.testimoni-brand .title-sec h5 {
+    font-size: 1.25rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 40px;
+    line-height: 1.4;
+}
+
+/* Styling for each testimonial item */
+.testimonial-item {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    display: flex; /* Use flexbox for consistent alignment */
+    align-items: center; /* Vertically center the content */
+    border: 1px solid #e0e0e0;
+    width: fit-content; /* Use fit-content to shrink-wrap the box around the content */
+    max-width: 100%; /* Ensure it doesn’t overflow the container */
+    margin: 10px 0; /* Remove margin for tighter spacing */
+}
+
+/* Hover effect for the boxes */
+.testimonial-item:hover {
+    background-color: #e0e0e0;
+}
+
+/* Image within the box */
+.testimonial-item img {
+    margin-right: 10px; /* Slightly smaller margin for tighter content alignment */
+    width: 25px;
+    height: 25px;
+}
+
+/* Text within the box */
+.testimonial-item h5 {
+    font-size: 1rem;
+    color: #333;
+    font-weight: 500;
+    margin: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .testimonial-item {
+        width: 100%; /* Full width for smaller screens */
+        max-width: none; /* Allow it to use full width */
+    }
+}
