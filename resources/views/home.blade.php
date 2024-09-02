@@ -173,36 +173,38 @@
                     <img src="{{asset('assets/pics/hero-section.jpg')}}" alt="">
                     <div class="panel">
                         <i class="fas fa-home"></i> 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, recusandae.</p>
-                        <span class="breaker"></span>
                         <h3>
                             Lorem ipsum dolor sit amet.
                         </h3>
-                        <a href="#">Learn More</a>
+                        <span class="breaker"></span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, recusandae.</p>
+
+                        <a href="#" class="learn-more">Learn More</a>
                     </div>
                 </div>
                 <div class="card">
                     <img src="{{asset('assets/pics/hero-section.jpg')}}" alt="">
                     <div class="panel">
                         <i class="fas fa-home"></i> 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, recusandae.</p>
-                        <span class="breaker"></span>
                         <h3>
                             Lorem ipsum dolor sit amet.
                         </h3>
-                        <a href="#">Learn More</a>
+                        <span class="breaker"></span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, recusandae.</p>                        
+                        <a href="#" class="learn-more">Learn More</a>
                     </div>
                 </div>
                 <div class="card">
                     <img src="{{asset('assets/pics/hero-section.jpg')}}" alt="">
                     <div class="panel">
                         <i class="fas fa-home"></i> 
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, recusandae.</p>
-                        <span class="breaker"></span>
                         <h3>
                             Lorem ipsum dolor sit amet.
                         </h3>
-                        <a href="#">Learn More</a>
+                        <span class="breaker"></span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, recusandae.</p>
+                        
+                        <a href="#" class="learn-more">Learn More</a>
                     </div>
                 </div>
             </div>
