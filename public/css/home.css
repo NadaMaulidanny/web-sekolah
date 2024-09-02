@@ -173,6 +173,12 @@
         width: 100%;
     }
 
+    .btn-more a {
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
     .text-hero-bold {
         font-size: 2em; /* Adjust font size for smaller screens */
     }
@@ -185,9 +191,12 @@
 /* General styles for the testimonial brand section */
 .testimoni-brand {
     background-color: #ffffff;
-    padding: 60px 0;
+    padding: 50px 0;
     text-align: center;
     font-family: Arial, sans-serif;
+    width: 80%;
+    max-width: 1200px; /* Set a maximum width for larger screens */
+    margin: 0 auto; /* Center alignment */
 }
 
 /* Styles for the title section */
@@ -201,28 +210,29 @@
 
 /* Styling for each testimonial item */
 .testimonial-item {
-    background-color: #f7f7f7;
-    border-radius: 10px;
-    padding: 10px;
-    transition: background-color 0.3s ease;
-    display: flex; /* Use flexbox for consistent alignment */
-    align-items: center; /* Vertically center the content */
-    border: 1px solid #e0e0e0;
-    width: fit-content; /* Use fit-content to shrink-wrap the box around the content */
-    max-width: 100%; /* Ensure it doesn’t overflow the container */
-    margin: 10px 0; /* Remove margin for tighter spacing */
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, border 0.3s ease;
+    display: flex;
+    align-items: center;
+    border: 2px solid #e0e0e0;
+    width: 100%; /* Set a fixed width for consistency */
+    margin: 5px 0; /* Consistent margin */
+    justify-content: center; /* Center the content horizontally */
 }
 
 /* Hover effect for the boxes */
 .testimonial-item:hover {
-    background-color: #e0e0e0;
+    border: 2px solid #007455;
 }
 
 /* Image within the box */
 .testimonial-item img {
-    margin-right: 10px; /* Slightly smaller margin for tighter content alignment */
+    margin-right: 10px;
     width: 25px;
     height: 25px;
+    flex-shrink: 0;
 }
 
 /* Text within the box */
@@ -233,10 +243,131 @@
     margin: 0;
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .testimonial-item {
-        width: 100%; /* Full width for smaller screens */
-        max-width: none; /* Allow it to use full width */
+/* Our Principle Section */
+.our-prnciple {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.subtitle {
+    background-color: #00997027; /* Warna latar belakang biru */
+    color: #007455; /* Warna teks putih untuk kontras */
+    font-weight: 800;
+    border-radius: 24px; /* Membuat sudut melengkung */
+    padding: 10px 20px; /* Memberikan ruang di dalam tombol */
+    font-size: 12px; /* Mengatur ukuran font */
+    text-decoration: none; /* Menghilangkan garis bawah */
+    transition: background-color 0.3s ease; /* Animasi saat hover */
+    width: fit-content; /* Menyesuaikan lebar dengan konten */
+    margin: 10px 0; /* Tengah-kan dan beri jarak bawah */
+}
+
+.subtitle p {
+    margin: 0; /* Menghilangkan margin pada paragraf untuk memastikan teks pas di dalam tombol */
+}
+
+.d-flex {
+    display: flex; /* Mengatur elemen dalam div ini menjadi flex container */
+    align-items: center; /* Menyelaraskan item secara vertikal di tengah */
+    justify-content: space-between; /* Menyelaraskan item secara horizontal, memberi jarak di antara mereka */
+}
+
+.title-sec {
+    max-width: 65%;
+    margin-right: 20px; /* Menambahkan jarak antara judul dan tombol */
+    margin-bottom: 25px;
+}
+
+.title-sec h5 {
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0; /* Menghilangkan margin default */
+}
+
+/* Tombol More Button */
+.more-button {
+    background-color: #000;
+    font-weight: 600;
+    color: #fff;
+    font-size: 16px;
+    padding: 14px 20px;
+    border-radius: 16px;
+    text-decoration: none;
+    transition: 0.3s background-color;
+    border: 2px solid #000;
+}
+
+.more-button:hover {
+    font-weight: 600;
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #000;
+}
+
+/* Responsive Styles */
+
+/* Layar besar hingga sedang */
+@media (max-width: 992px) {
+    .title-sec {
+        max-width: 60%; /* Sesuaikan max-width pada layar lebih kecil */
     }
+}
+
+/* Layar sedang hingga kecil */
+@media (max-width: 768px) {
+    .d-flex {
+        flex-direction: column; /* Susun elemen secara vertikal pada layar kecil */
+        align-items: flex-start; /* Elemen tetap berada di kiri */
+    }
+    .title-sec {
+        max-width: 100%; /* Buat elemen judul memenuhi lebar */
+        margin-right: 0; /* Reset margin */
+        margin-bottom: 10px; /* Jarak antara elemen pada layar kecil */
+    }
+    .more-button {
+        align-self: flex-start; /* Pastikan tombol tetap di kiri */
+        width: auto; /* Buat tombol menyesuaikan dengan konten */
+        margin: 10px 0; /* Berikan jarak antara judul dan tombol */
+    }
+}
+
+/* Layar sangat kecil, misalnya ponsel */
+@media (max-width: 480px) {
+    .title-sec h5 {
+        font-size: 32px; /* Kurangi ukuran font pada layar sangat kecil */
+    }
+    .more-button {
+        font-size: 14px; /* Kurangi ukuran font tombol pada layar sangat kecil */
+        padding: 10px 15px; /* Sesuaikan padding tombol */
+    }
+    .subtitle {
+        font-size: 10px; /* Kurangi ukuran font subtitle */
+        padding: 8px 15px; /* Sesuaikan padding subtitle */
+    }
+}
+
+/* card Our Princpal */
+.column-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card i {
+    font-size: 30px;
+
+}
+
+.panel {
+    padding: 20px;
 }

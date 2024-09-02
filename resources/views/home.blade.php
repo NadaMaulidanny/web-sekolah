@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="{{ asset('css/home.css') }}">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     {{-- Bootstrap CSS --}}
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
@@ -116,29 +118,97 @@
                         <h5>Logoipsum</h5>
                     </div>
                 </div>
+                <div class="col-auto">
+                    <div class="testimonial-item">
+                        <img src="{{asset('assets/pics/bar-chart.png')}}" alt="">
+                        <h5>Logoipsum</h5>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="testimonial-item">
+                        <img src="{{asset('assets/pics/bar-chart.png')}}" alt="">
+                        <h5>Logoipsum</h5>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="testimonial-item">
+                        <img src="{{asset('assets/pics/bar-chart.png')}}" alt="">
+                        <h5>Logoipsum</h5>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="testimonial-item">
+                        <img src="{{asset('assets/pics/bar-chart.png')}}" alt="">
+                        <h5>Logoipsum</h5>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="testimonial-item">
+                        <img src="{{asset('assets/pics/bar-chart.png')}}" alt="">
+                        <h5>Logoipsum</h5>
+                    </div>
+                </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-auto">
-                    <div class="testimonial-item">
-                        <img src="{{asset('assets/pics/bar-chart.png')}}" alt="">
-                        <h5>Logoipsum</h5>
+                
+            </div>
+        </div>
+    </section>
+    {{-- End Testimonial Brand --}}
+    
+    {{-- Our Principle Section --}}
+    <section class="our-principle">
+        <div class="container">
+            <div class="subtitle">
+                <p>OUR PRINCIPLE</p>
+            </div>
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="title-sec">
+                    <h5>Mengapa kami adalah pilihan yang terbaik?</h5>
+                </div>
+                <a href="#" class="more-button">Explore More</a>
+            </div>
+            <div class="column-card">
+                <div class="card">
+                    <img src="{{asset('assets/pics/hero-section.jpg')}}" alt="">
+                    <div class="panel">
+                        <i class="fas fa-home"></i> 
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, recusandae.</p>
+                        <span class="breaker"></span>
+                        <h3>
+                            Lorem ipsum dolor sit amet.
+                        </h3>
+                        <a href="#">Learn More</a>
                     </div>
                 </div>
-                <div class="col-auto">
-                    <div class="testimonial-item">
-                        <img src="{{asset('assets/pics/bar-chart.png')}}" alt="">
-                        <h5>Logoipsum</h5>
+                <div class="card">
+                    <img src="{{asset('assets/pics/hero-section.jpg')}}" alt="">
+                    <div class="panel">
+                        <i class="fas fa-home"></i> 
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, recusandae.</p>
+                        <span class="breaker"></span>
+                        <h3>
+                            Lorem ipsum dolor sit amet.
+                        </h3>
+                        <a href="#">Learn More</a>
                     </div>
                 </div>
-                <div class="col-auto">
-                    <div class="testimonial-item">
-                        <img src="{{asset('assets/pics/bar-chart.png')}}" alt="">
-                        <h5>Logoipsum</h5>
+                <div class="card">
+                    <img src="{{asset('assets/pics/hero-section.jpg')}}" alt="">
+                    <div class="panel">
+                        <i class="fas fa-home"></i> 
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, recusandae.</p>
+                        <span class="breaker"></span>
+                        <h3>
+                            Lorem ipsum dolor sit amet.
+                        </h3>
+                        <a href="#">Learn More</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    {{-- End Our Principle --}}
     
     
     
