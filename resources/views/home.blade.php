@@ -86,7 +86,7 @@
     {{-- End Hero Section --}}
 
     {{-- Brand Section --}}
-    <section class="testimoni-brand" data-aos="fade-up" data-aos-duration="1000">
+    <section class="testimoni-brand">
         <div class="container">
             <div class="row">
                 <div class="title-sec">
@@ -149,12 +149,99 @@
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                
-            </div>
         </div>
     </section>
     {{-- End Testimonial Brand --}}
+
+    {{-- Why Choose Us --}}
+    <div class="main">
+        <div class="subtitle">
+            <p>OUR PRINCIPLE</p>
+        </div>
+        <div class="d-flex align-items-center justify-content-between">
+            <div class="title-sec">
+                <h5>Mengapa kami adalah pilihan yang terbaik?</h5>
+            </div>
+            <a href="#" class="more-button">Explore More</a>
+        </div>
+        <div class="why-choose-us">
+            <ul>
+                <li>
+                    <h3 class="heading">FrontEnd Developer</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
+                    totam </p>
+                    <a href="#">Read More ></a>
+                    <span class="date">January 2021</span>
+                    <span class="circle"></span>
+                </li>
+                <li>
+                    <h3 class="heading">BackEnd Developer</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
+                    totam </p>
+                    <a href="#">Read More ></a>
+                    <span class="date">February 2021</span>
+                    <span class="circle"></span>
+                </li>
+                <li>
+                    <h3 class="heading">Full Stack Developer</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
+                    totam </p>
+                    <a href="#">Read More ></a>
+                    <span class="date">March 2021</span>
+                    <span class="circle"></span>
+                </li>
+                <li>
+                    <h3 class="heading">App Developer</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit excepturi accusamus minus
+                    totam </p>
+                    <a href="#">Read More ></a>
+                    <span class="date">April 2021</span>
+                    <span class="circle"></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    {{-- End Why Choose Us --}}
+
+    {{-- Company Statistics --}}
+    <section class="statistic">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <div class="statistic-item">
+                        <i class="fa-solid fa-chart-line"></i>
+                        <h5>Logoipsum</h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="statistic-item">
+                        <i class="fa-solid fa-trophy"></i>
+                        <h5>Logoipsum</h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="statistic-item">
+                        <i class="fa-solid fa-building"></i>
+                        <h5>Logoipsum</h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="statistic-item">
+                        <i class="fa-solid fa-star"></i>
+                        <h5>Logoipsum</h5>
+                        <p>Lorem ipsum dolor sit amet.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{-- End Company Statistics --}}
     
     {{-- Our Principle Section --}}
     <section class="our-principle">
@@ -211,6 +298,7 @@
         </div>
     </section>
     {{-- End Our Principle --}}
+
     
     
     
