@@ -244,7 +244,7 @@
 }
 
 /* Our Principle Section */
-.our-prnciple {
+.our-principle {
     background-color: #f5f5f5;
     padding: 20px;
 }
@@ -441,7 +441,7 @@
 .statistic {
     margin: 50px 0;
     background-color: #00271d;
-    padding: 30px 0;
+    padding: 50px 0;
 }
 
 .statistic-item {
@@ -471,7 +471,6 @@
 	height: auto;
 	display: grid;
 	place-items: center;
-	background-color: rgb(245, 245, 245);
 	padding: 50px 0;
 }
 .main .head {
@@ -493,6 +492,10 @@
 }
 
 /* Container Css Start  */
+
+.why-choose-us .title-sec {
+    margin-left: 20px;
+}
 
 .why-choose-us {
 	width: 70%;
@@ -547,11 +550,11 @@
 }
 ul li:nth-child(odd) .circle {
 	transform: translate(50%, -50%);
-	right: -30px;
+	right: -32px;
 }
 ul li:nth-child(even) .circle {
 	transform: translate(-50%, -50%);
-	left: -30px;
+	left: -28px;
 }
 ul li .date {
 	position: absolute;
@@ -619,7 +622,7 @@ ul li a {
 		margin-bottom: 80px;
 	}
 	.why-choose-us ul li .circle{
-		left: -40px;
+		left: -72px;
 		transform: translate(-50%, -50%);
 	}
 	.why-choose-us ul li .date{
@@ -642,6 +645,8 @@ ul li a {
 		left: -20px;
 	}
 	.why-choose-us ul li .circle{
-		left: -20px;
+		left: -52px;
 	}
 }
+
+

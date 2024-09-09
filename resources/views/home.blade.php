@@ -155,15 +155,19 @@
 
     {{-- Why Choose Us --}}
     <div class="main">
-        <div class="subtitle">
-            <p>OUR PRINCIPLE</p>
-        </div>
-        <div class="d-flex align-items-center justify-content-between">
-            <div class="title-sec">
-                <h5>Mengapa kami adalah pilihan yang terbaik?</h5>
+        <div class="container">
+            <div class="subtitle">
+                <p>OUR PRINCIPLE</p>
             </div>
-            <a href="#" class="more-button">Explore More</a>
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="title-sec">
+                    <h5 class="title-text">Mengapa kami adalah pilihan yang terbaik?</h5>
+                </div>
+                <a href="#" class="more-button">Explore More</a>
+            </div>
         </div>
+        
+        
         <div class="why-choose-us">
             <ul>
                 <li>
@@ -296,7 +300,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     {{-- End Our Principle --}}
 
     
