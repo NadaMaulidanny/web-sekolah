@@ -1,3 +1,7 @@
+body {
+    background-color: lightblue;
+}
+
 .navbar {
     background-color: #fff;
     height: 80px;
@@ -194,8 +198,7 @@
     padding: 50px 0;
     text-align: center;
     font-family: Arial, sans-serif;
-    width: 80%;
-    max-width: 1200px; /* Set a maximum width for larger screens */
+    width: 100%;
     margin: 0 auto; /* Center alignment */
 }
 
@@ -382,6 +385,15 @@
     padding: 20px;
 }
 
+.panel-more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+
 .panel h3 {
     font-size: 24px;
     font-weight: 700;
@@ -439,7 +451,7 @@
 /* Company Statistic */
 
 .statistic {
-    margin: 50px 0;
+    margin: 0;
     background-color: #00271d;
     padding: 50px 0;
 }
@@ -605,6 +617,30 @@ ul li a {
 	.why-choose-us{
 		width: 80%;
 	}
+
+    .why-choose-us ul::after{
+		left: -40px;
+	}
+	.why-choose-us ul li {
+		width: 100%;
+		float: none;
+		clear: none;
+		margin-bottom: 80px;
+	}
+	.why-choose-us ul li .circle{
+		left: -72px;
+		transform: translate(-50%, -50%);
+	}
+	.why-choose-us ul li .date{
+		left: 20px;
+	}
+	.why-choose-us ul li:nth-child(odd) {
+		transform: translateX(0px);
+		text-align: left;
+	}
+	.why-choose-us ul li:nth-child(even) {
+		transform: translateX(0px);
+	}
 }
 
 @media only screen and (max-width: 798px) {
@@ -649,4 +685,102 @@ ul li a {
 	}
 }
 
+/* Our Team */
 
+/* General Styles for the our-team Section */
+.our-team {
+    padding: 50px 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.our-team .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Ensures contents are centered */
+}
+
+.column-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Card Item Styling */
+.card-item {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+/* Image Circular Style */
+.card-item img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #007455;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+/* Panel Styling */
+.card-item h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.card-item p {
+    font-size: 14px;
+    color: #666;
+}
+
+.card-item .breaker {
+    display: block;
+    height: 2px;
+    width: 50px;
+    background-color: #007455;
+    margin: 10px auto;
+}
+
+.card-item .learn-more {
+    display: inline-block;
+    margin-top: 15px;
+    color: #007455;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #007455;
+    padding: 8px 16px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.card-item .learn-more:hover {
+    background-color: #007455;
+    color: #fff;
+}
+
+/* Hover Effect for the Card */
+.card-item:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .card-item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 550px) {
+    .our-team .title-sec h5 {
+        font-size: 18px;
+    }
+}
