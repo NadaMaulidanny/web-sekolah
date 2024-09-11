@@ -317,45 +317,45 @@
             </div>
             <div class="column-card">
                 <div class="card-item">
-                    <img src="{{asset('assets/pics/hero-section.jpg')}}" alt="">
+                    <img src="{{asset('assets/pics/icon.jpeg')}}" alt="">
                     <div class="panel">
-                        <h3>Nada Maulidanny</h3>
+                        <h3>Jennie</h3>
                         <span class="breaker"></span>
                         <p>Software Developer</p>
                         <a href="#" class="learn-more">Learn More</a>
                     </div>
                 </div>
                 <div class="card-item">
-                    <img src="{{asset('assets/pics/hero-section.jpg')}}" alt="">
+                    <img src="{{asset('assets/pics/icon.jpeg')}}" alt="">
                     <div class="panel">
-                        <h3>Nada Maulidanny</h3>
+                        <h3>Jennie</h3>
                         <span class="breaker"></span>
                         <p>Software Developer</p>
                         <a href="#" class="learn-more">Learn More</a>
                     </div>
                 </div>
                 <div class="card-item">
-                    <img src="{{asset('assets/pics/hero-section.jpg')}}" alt="">
+                    <img src="{{asset('assets/pics/icon.jpeg')}}" alt="">
                     <div class="panel">
-                        <h3>Nada Maulidanny</h3>
+                        <h3>Jennie</h3>
                         <span class="breaker"></span>
                         <p>Software Developer</p>
                         <a href="#" class="learn-more">Learn More</a>
                     </div>
                 </div>
                 <div class="card-item">
-                    <img src="{{asset('assets/pics/hero-section.jpg')}}" alt="">
+                    <img src="{{asset('assets/pics/icon.jpeg')}}" alt="">
                     <div class="panel">
-                        <h3>Nada Maulidanny</h3>
+                        <h3>Jennie</h3>
                         <span class="breaker"></span>
                         <p>Software Developer</p>
                         <a href="#" class="learn-more">Learn More</a>
                     </div>
                 </div>
                 <div class="card-item">
-                    <img src="{{asset('assets/pics/hero-section.jpg')}}" alt="">
+                    <img src="{{asset('assets/pics/icon.jpeg')}}" alt="">
                     <div class="panel">
-                        <h3>Nada Maulidanny</h3>
+                        <h3>Jennie</h3>
                         <span class="breaker"></span>
                         <p>Software Developer</p>
                         <a href="#" class="learn-more">Learn More</a>
@@ -374,7 +374,34 @@
     </section>    
     {{-- End Our Team --}}
 
+    {{-- Testimonial --}}
     
+    <section class="testimonial">
+        <div class="container">
+            <div class="subtitle">
+                <p>OUR TEAM</p>
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+                <div class="title-sec">
+                    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+                </div>
+            </div>
+            <div class="owl-carousel owl-theme">
+                <div class="item"><h4>1</h4></div>
+                <div class="item"><h4>2</h4></div>
+                <div class="item"><h4>3</h4></div>
+                <div class="item"><h4>4</h4></div>
+                <div class="item"><h4>5</h4></div>
+                <div class="item"><h4>6</h4></div>
+                <div class="item"><h4>7</h4></div>
+                <div class="item"><h4>8</h4></div>
+                <div class="item"><h4>9</h4></div>
+                <div class="item"><h4>10</h4></div>
+                <div class="item"><h4>11</h4></div>
+                <div class="item"><h4>12</h4></div>
+            </div>
+        </div>
+    </section>    
     
     
 
