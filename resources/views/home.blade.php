@@ -14,6 +14,10 @@
     {{-- Bootstrap CSS --}}
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    
+
 </head>
 <body style="background-color: #fcfcfc">
     
@@ -386,27 +390,177 @@
                     <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
                 </div>
             </div>
-            <div class="owl-carousel owl-theme">
-                <div class="item"><h4>1</h4></div>
-                <div class="item"><h4>2</h4></div>
-                <div class="item"><h4>3</h4></div>
-                <div class="item"><h4>4</h4></div>
-                <div class="item"><h4>5</h4></div>
-                <div class="item"><h4>6</h4></div>
-                <div class="item"><h4>7</h4></div>
-                <div class="item"><h4>8</h4></div>
-                <div class="item"><h4>9</h4></div>
-                <div class="item"><h4>10</h4></div>
-                <div class="item"><h4>11</h4></div>
-                <div class="item"><h4>12</h4></div>
+            <div class="owl-carousel owl-theme testimonials-container">
+                <div class="item testimonials-card">
+                    <main class="test-card-body">
+                        <div class="quote">
+                            <i class="fa fa-quote-left"></i>
+                            <h2>Awesome Coding</h2>
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti explicabo ex repellat beatae optio? Eaque illum quo dolores beatae sint!</p>
+                        <div class="ratings">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </main>
+                    <div class="profile">
+                        <div class="profile-image">
+                            <img src="{{asset('assets/pics/icon.jpeg')}}" alt="">
+                        </div>
+                        <div class="profile-desc">
+                            <span>Person Name</span>
+                            <span>Description</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item testimonials-card">
+                    <main class="test-card-body">
+                        <div class="quote">
+                            <i class="fa fa-quote-left"></i>
+                            <h2>Awesome Coding</h2>
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti explicabo ex repellat beatae optio? Eaque illum quo dolores beatae sint!</p>
+                        <div class="ratings">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </main>
+                    <div class="profile">
+                        <div class="profile-image">
+                            <img src="{{asset('assets/pics/icon.jpeg')}}" alt="">
+                        </div>
+                        <div class="profile-desc">
+                            <span>Person Name</span>
+                            <span>Description</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item testimonials-card">
+                    <main class="test-card-body">
+                        <div class="quote">
+                            <i class="fa fa-quote-left"></i>
+                            <h2>Awesome Coding</h2>
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti explicabo ex repellat beatae optio? Eaque illum quo dolores beatae sint!</p>
+                        <div class="ratings">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </main>
+                    <div class="profile">
+                        <div class="profile-image">
+                            <img src="{{asset('assets/pics/icon.jpeg')}}" alt="">
+                        </div>
+                        <div class="profile-desc">
+                            <span>Person Name</span>
+                            <span>Description</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item testimonials-card">
+                    <main class="test-card-body">
+                        <div class="quote">
+                            <i class="fa fa-quote-left"></i>
+                            <h2>Awesome Coding</h2>
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti explicabo ex repellat beatae optio? Eaque illum quo dolores beatae sint!</p>
+                        <div class="ratings">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </main>
+                    <div class="profile">
+                        <div class="profile-image">
+                            <img src="{{asset('assets/pics/icon.jpeg')}}" alt="">
+                        </div>
+                        <div class="profile-desc">
+                            <span>Person Name</span>
+                            <span>Description</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item testimonials-card">
+                    <main class="test-card-body">
+                        <div class="quote">
+                            <i class="fa fa-quote-left"></i>
+                            <h2>Awesome Coding</h2>
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti explicabo ex repellat beatae optio? Eaque illum quo dolores beatae sint!</p>
+                        <div class="ratings">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </main>
+                    <div class="profile">
+                        <div class="profile-image">
+                            <img src="{{asset('assets/pics/icon.jpeg')}}" alt="">
+                        </div>
+                        <div class="profile-desc">
+                            <span>Person Name</span>
+                            <span>Description</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item testimonials-card">
+                    <main class="test-card-body">
+                        <div class="quote">
+                            <i class="fa fa-quote-left"></i>
+                            <h2>Awesome Coding</h2>
+                        </div>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti explicabo ex repellat beatae optio? Eaque illum quo dolores beatae sint!</p>
+                        <div class="ratings">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                    </main>
+                    <div class="profile">
+                        <div class="profile-image">
+                            <img src="{{asset('assets/pics/icon.jpeg')}}" alt="">
+                        </div>
+                        <div class="profile-desc">
+                            <span>Person Name</span>
+                            <span>Description</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>    
     
-    
+    {{-- jquery --}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    {{-- cdnjs --}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
     {{-- Bootstrap JS --}}
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    {{-- custom js --}}
+    <script type="text/javascript" src="{{ asset('js/script.js') }}"></script>
 
     {{-- AOS --}}
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>

@@ -1,4 +1,4 @@
-$('.owl-carousel').owlCarousel({
+$('.testimonials-container').owlCarousel({
     loop:true,
     margin:10,
     nav:true,
