@@ -17,6 +17,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
     
+    {{-- Font --}}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
 </head>
 <body style="background-color: #fcfcfc">
@@ -304,7 +308,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     {{-- End Our Principle --}}
 
     {{-- Our Team --}}
@@ -549,6 +553,90 @@
             </div>
         </div>
     </section>    
+
+    {{-- testimonials end --}}
+
+    {{-- FAQ --}}
+    <section id="faq">
+        <div class="faq-heading">
+            <h3>faqs</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam in cumque nam culpa vitae necessitatibus nisi nemo officia nobis corrupti.</p>
+        </div>
+
+        <div class="faq-content">
+            <div class="faq-box-container">
+                <div class="faq-box">
+                    <div class="faq-box-question">
+                        <h4>Siapa nama kamu anjay</h4>
+                        <span class="faq-box-icon"></span>
+                    </div>
+
+                    <div class="faq-box-answer">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eum culpa officia laudantium quae. Voluptatibus similique voluptatem distinctio cupiditate ab.</p>
+                    </div>
+                </div>
+
+                <div class="faq-box">
+                    <div class="faq-box-question">
+                        <h4>Siapa nama kamu anjay</h4>
+                        <span class="faq-box-icon"></span>
+                    </div>
+
+                    <div class="faq-box-answer">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eum culpa officia laudantium quae. Voluptatibus similique voluptatem distinctio cupiditate ab.</p>
+                    </div>
+                </div>
+
+                <div class="faq-box">
+                    <div class="faq-box-question">
+                        <h4>Siapa nama kamu anjay</h4>
+                        <span class="faq-box-icon"></span>
+                    </div>
+
+                    <div class="faq-box-answer">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eum culpa officia laudantium quae. Voluptatibus similique voluptatem distinctio cupiditate ab.</p>
+                    </div>
+                </div>
+
+                <div class="faq-box">
+                    <div class="faq-box-question">
+                        <h4>Siapa nama kamu anjay</h4>
+                        <span class="faq-box-icon"></span>
+                    </div>
+
+                    <div class="faq-box-answer">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eum culpa officia laudantium quae. Voluptatibus similique voluptatem distinctio cupiditate ab.</p>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="faq-img">
+                <img src="{{asset('assets/pics/icon.jpeg')}}" alt="">
+            </div>
+        </div>
+    </section>
+    {{-- FAQ End --}}
+    
+
+
+    {{-- FAQs --}}
+    <script>
+        var faq = document.getElementsByClassName("faq-box-question");
+        var i;
+        for (i = 0; i < faq.length; i++) {
+            faq[i].addEventListener("click", function(){
+                this.classList.toggle("active");
+
+                var body = this.nextElementSibling;
+                if(body.style.maxHeight === "100px"){
+                    body.style.maxHeight = "0px";
+                } else {
+                    body.style.maxHeight = "100px";
+                }
+            });
+        }
+    </script>
     
     {{-- jquery --}}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
