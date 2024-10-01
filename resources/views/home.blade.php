@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="{{ asset('css/home.css') }}">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://kit.fontawesome.com/4b18461fa0.js" crossorigin="anonymous"></script>
 
     {{-- Bootstrap CSS --}}
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -567,7 +568,7 @@
             <div class="faq-box-container">
                 <div class="faq-box">
                     <div class="faq-box-question">
-                        <h4>Siapa nama kamu anjay</h4>
+                        <h4>Lorem ipsum dolor sit amet.</h4>
                         <span class="faq-box-icon"></span>
                     </div>
 
@@ -578,7 +579,7 @@
 
                 <div class="faq-box">
                     <div class="faq-box-question">
-                        <h4>Siapa nama kamu anjay</h4>
+                        <h4>Lorem ipsum dolor sit amet.</h4>
                         <span class="faq-box-icon"></span>
                     </div>
 
@@ -589,7 +590,7 @@
 
                 <div class="faq-box">
                     <div class="faq-box-question">
-                        <h4>Siapa nama kamu anjay</h4>
+                        <h4>Lorem ipsum dolor sit amet.</h4>
                         <span class="faq-box-icon"></span>
                     </div>
 
@@ -600,7 +601,7 @@
 
                 <div class="faq-box">
                     <div class="faq-box-question">
-                        <h4>Siapa nama kamu anjay</h4>
+                        <h4>Lorem ipsum dolor sit amet.</h4>
                         <span class="faq-box-icon"></span>
                     </div>
 
@@ -619,6 +620,62 @@
     {{-- FAQ End --}}
     
 
+    <footer>
+        <div class="container container-footer">
+            <div class="row row-footer">
+                <div class="col col-footer" id="company">
+                    <h3>SynCode Network</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+
+                    <div class="social">
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col col-footer" id="services">
+                    <h3>Services</h3>
+                    <div class="links">
+                        <a href="#">Lorem, ipsum dolor.</a>
+                        <a href="#">Lorem, ipsum.</a>
+                        <a href="#">Lorem, ipsum.</a>
+                        <a href="#">Lorem, ipsum.</a>
+                    </div>
+                </div>
+                <div class="col col-footer" id="useful-links">
+                    <h3>Links</h3>
+                    <div class="links">
+                        <a href="#">Lorem, ipsum.</a>
+                        <a href="#">Lorem, ipsum.</a>
+                        <a href="#">Lorem, ipsum.</a>
+                        <a href="#">Lorem, ipsum.</a>
+                    </div>
+                </div>
+                <div class="col col-footer" id="contact">
+                    <h3>Contact</h3>
+                    <div class="contact-details">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Lorem, ipsum dolor. <br> Lorem, ipsum.</p>
+                    </div>
+                    <div class="contact-details">
+                        <i class="fa-solid fa-phone-volume"></i>
+                        <p>Lorem, ipsum dolor. <br> Lorem, ipsum.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row row-footer">
+                <div class="form">
+                    <form action="">
+                        <input type="text" placeholder="email here">
+                        <button><i class="fa fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     {{-- FAQs --}}
     <script>
