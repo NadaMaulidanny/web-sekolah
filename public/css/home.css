@@ -1126,7 +1126,7 @@ footer {
 }
 
 .col-footer h3::after {
-    content: "";
+    content: ' ';
     height: 3px;
     width: 0px;
     background-color: #00b383;
@@ -1150,6 +1150,10 @@ footer {
 .col .social a i:hover {
     transform: scale(1.5);
     filter: grayscale(25);
+}
+
+.logo {
+    margin-bottom:25px;
 }
 
 .col .links a {

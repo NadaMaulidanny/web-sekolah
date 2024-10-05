@@ -1,10 +1,15 @@
 <?php
 
+use App\Http\Controllers\NavBarController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('home');
+Route::controller(NavbarController::class)->group(function () {
+    Route::get('/home', 'index')->name('home');
+    Route::get('/contact-us', 'contact')->name('contact');
+    Route::get('/blog', 'blog')->name('blog');
+    Route::get('/product', 'product')->name('product');
+    Route::get('/about', 'about')->name('about');
 });
 
 Route::get('/dashboard', function () {

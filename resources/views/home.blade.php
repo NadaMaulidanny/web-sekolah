@@ -39,19 +39,19 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active" aria-current="page" href="{{route('home')}}">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link mx-lg-2" href="#">Products</a>
+                  <a class="nav-link mx-lg-2" href="{{route('product')}}">Products</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link mx-lg-2" href="#">Company</a>
+                  <a class="nav-link mx-lg-2" href="{{route('blog')}}">Blog</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link mx-lg-2" href="#">Blog</a>
+                  <a class="nav-link mx-lg-2" href="{{route('contact')}}">Contact</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link mx-lg-2" href="#">About</a>
+                  <a class="nav-link mx-lg-2" href="{{route('about')}}">About</a>
                 </li>
               </ul>
             </div>
@@ -624,8 +624,8 @@
         <div class="container container-footer">
             <div class="row row-footer">
                 <div class="col col-footer" id="company">
-                    <h3>SynCode Network</h3>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit</p>
+                    <h3 class="logo">SynCode Network</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque, maiores </p>
 
                     <div class="social">
                         <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
