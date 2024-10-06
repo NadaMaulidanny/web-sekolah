@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="{{ asset('css/home.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/contact.css') }}">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <script src="https://kit.fontawesome.com/4b18461fa0.js" crossorigin="anonymous"></script>
@@ -63,6 +64,58 @@
         </div>
     </nav>
     {{-- End Navbar --}}
+
+    <section class="contact-section">
+        <div class="contact-bg">
+            <h3>Get in Touch With Us</h3>
+            <h2>Contact Us</h2>
+            <div class="line">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci voluptas temporibus dicta doloremque, aperiam accusamus provident quidem aspernatur vel nesciunt omnis obcaecati voluptatem nisi, dolorum eveniet dignissimos optio, velit eum.</p>
+        </div>
+
+        <div class="contact-body">
+            <div class="contact-info">
+                <div>
+                    <span><i class="fa-solid fa-phone"></i></span>
+                    <span>Phone No. </span>
+                    <span class="text">+62 123456789</span>
+                </div>
+                <div>
+                    <span><i class="fa-solid fa-envelope"></i></span>
+                    <span>Email</span>
+                    <span class="text">company@gmail.com</span>
+                </div>
+                <div>
+                    <span><i class="fa-solid fa-location-dot"></i></span>
+                    <span>Address</span>
+                    <span class="text">Jl. Kemana-mana hatiku senang</span>
+                </div>
+                <div>
+                    <span><i class="fa-solid fa-clock"></i></span>
+                    <span>Open Hours </span>
+                    <span class="text">Senin - Jum'at 08:00-17:00</span>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form action="">
+                    <div>
+                        <input type="text" class="form-control" placeholder="First Name">
+                        <input type="text" class="form-control" placeholder="Last Name">
+                    </div>
+                    <div>
+                        <input type="email" class="form-control" placeholder="Email">
+                        <input type="text" class="form-control" placeholder="Phone">
+                    </div>
+                    <textarea name="" id="" rows="5"></textarea>
+                </form>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <div class="container container-footer">
