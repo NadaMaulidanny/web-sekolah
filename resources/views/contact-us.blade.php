@@ -111,9 +111,20 @@
                         <input type="email" class="form-control" placeholder="Email">
                         <input type="text" class="form-control" placeholder="Phone">
                     </div>
-                    <textarea name="" id="" rows="5"></textarea>
+                    <textarea name="" id="" rows="5" placeholder="Message" class="form-control"></textarea>
+                    <input type="submit" class="send-btn" value="send message"> 
                 </form>
+                <div>
+                    <img src="{{asset('assets/pics/hero.svg')}}" alt="">
+                </div>
             </div>
+            
+
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15816.535153804214!2d112.8940486907959!3d-7.668762619922279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7cf53a67427b3%3A0x1458c6500c5d88d0!2sUniversitas%20PGRI%20Wiranegara!5e0!3m2!1sid!2sid!4v1729691395396!5m2!1sid!2sid" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+
         </div>
     </section>
 
