@@ -64,6 +64,7 @@
     </nav>
     {{-- End Navbar --}}
 
+    {{-- Footer --}}
     <footer>
         <div class="container container-footer">
             <div class="row row-footer">
@@ -120,6 +121,7 @@
             </div>
         </div>
     </footer>
+    {{-- Footer --}}
 
     {{-- FAQs --}}
     <script>
